@@ -1,18 +1,19 @@
 import React from "react"
-import { View,ScrollView } from "react-native"
+import { View,ScrollView, Image } from "react-native"
 import SampleComponent from "./SampleComponent";
 import StylingReactNativeComponent from "./StylingReactNativeComponent";
 import MateriFlexBox from "./MateriFlexBox";
+import PositionReactNative from "./PositionReactNative";
 
-function App() {
+
+const App = () => {
   return (
-    <View>
-      <ScrollView>
+        <View style={{flex:1,alignItems:'center',justifyContent:'center'}}>
         {/* <SampleComponent />
-        <StylingReactNativeComponent /> */}
-        <MateriFlexBox />
-      </ScrollView>
-    </View>
+        <StylingReactNativeComponent />
+        <MateriFlexBox /> */}
+      <PositionReactNative/>
+      </View>
   )
 }
 
