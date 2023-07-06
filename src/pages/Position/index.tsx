@@ -1,8 +1,11 @@
-import React, { useEffect, useState } from 'react';
+/* eslint-disable prettier/prettier */
+/* eslint-disable react/no-unstable-nested-components */
+/* eslint-disable react-native/no-inline-styles */
+import React from 'react';
 import { View, Image, Text } from 'react-native';
-import chart from './chart.png';
+import chart from '../../assets/icon/chart.png';
 
-const PositionReactNative = () => {
+const Position = () => {
   const Cart = () => (
     <Image
       source={chart}
@@ -43,4 +46,4 @@ const PositionReactNative = () => {
   );
 };
 
-export default PositionReactNative;
+export default Position;

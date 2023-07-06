@@ -1,9 +1,10 @@
+/* eslint-disable prettier/prettier */
 /* eslint-disable react-native/no-inline-styles */
 import React from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
-import cat from './cat.jpg';
+import cat from '../../assets/image/cat.jpg';
 
-const StylingReactNativeComponent = () => {
+const StylingComponent = () => {
   return (
     <View>
       <Text style={styles.text}>Styling Component</Text>
@@ -88,4 +89,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default StylingReactNativeComponent;
+export default StylingComponent;
